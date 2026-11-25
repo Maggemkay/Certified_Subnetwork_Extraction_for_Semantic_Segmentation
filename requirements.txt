@@ -1,0 +1,16 @@
+# Python 3.12 (results were produced with Python 3.12.16).
+# Versions are the ones in the environment used to run the experiments.
+#
+# torch/torchvision: the experiments used the CUDA 13.0 builds (2.14.1+cu130).
+# For a specific CUDA build, install them first from the PyTorch index, e.g.
+#   pip install torch==2.14.1 torchvision==0.29.1 --index-url https://download.pytorch.org/whl/cu130
+# then:
+#   pip install -r requirements.txt
+torch==2.14.1
+torchvision==0.29.1
+numpy==2.5.2
+scipy==1.18.1
+matplotlib==3.11.2
+pandas==3.1.0
+pillow==12.3.0
+pycocotools==2.0.11 # Only needed for the COCO datasets (src/common/datasets.py).
