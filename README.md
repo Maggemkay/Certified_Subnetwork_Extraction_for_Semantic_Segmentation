@@ -4,7 +4,7 @@ Code for the paper *Certified Subnetwork Extraction for Semantic Segmentation* b
 
 We extend the certified-circuits framework of Anani et al. from classification to semantic segmentation. For each of the 20 PASCAL VOC object classes, we extract a class subnetwork from DeepLabV3-ResNet50 that is provably stable under edits to its discovery images. Channels are selected globally across network stages, and pruning-induced logit shifts are counteracted with class-wise logit standardization. 
 
-The results and figures from this repository are on Zenodo: [doi.org/10.5281/zenodo.24471710](https://doi.org/10.5281/zenodo.24471710).
+For results and figures from our experiment runs, download the data this Zenodo repository and put it into the project root folder: [doi.org/10.5281/zenodo.24471710](https://doi.org/10.5281/zenodo.24471710).
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24471710.svg)](https://doi.org/10.5281/zenodo.24471710)
 
@@ -15,6 +15,8 @@ The results and figures from this repository are on Zenodo: [doi.org/10.5281/zen
 - C. Hamblin, T. Konkle, and G. Alvarez. "Pruning for Feature-Preserving Circuits in CNNs." arXiv preprint arXiv:2206.01627, 2023. https://arxiv.org/abs/2206.01627
 
 - S. Jung, J. Lee, D. Gwak, S. Choi, and J. Choo. "Standardized Max Logits: A Simple yet Effective Approach for Identifying Unexpected Road Obstacles in Urban-Scene Segmentation." In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)*, pp. 15405–15414, 2021. https://doi.org/10.1109/ICCV48922.2021.01514
+
+We took inspiration for a few extra experiments from the following:
 
 - M. Gullstrand, F. Westphal, and M. Riveiro. "Subnetwork Analysis for Neural Network Interpretability – A Survey and Experimental Study." Preprint, SSRN, 2026. https://doi.org/10.2139/ssrn.6942838
 
